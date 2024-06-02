@@ -1,0 +1,64 @@
+body {
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(229, 213, 248);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header{
+    text-align: center;
+    margin-bottom:20px;
+}
+header h1{
+    margin:0;
+    font-size: 2.5rem;
+    color: black;
+}
+header p{
+    margin: 5px 0 0 ;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+section{
+    margin-bottom: 20px;
+}
+section h2{
+    border-bottom:2px solid #333;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    margin-bottom: 10px;
+}
+ .contact-info ul li,.education ul li,.Experience ul li,.skills ul li{
+padding: 5px;
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+ }   
+ .contact-info ul li{
+    display: flex;
+    justify-content: space-between;
+ }
+ .education ul li h3, .experience ul li h3{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+ }
+ .education ul li p, .experience ul li p{
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+ }
